@@ -51,5 +51,29 @@ namespace AvaliaDesktop_Parte_1_JuliaBergman_2T.View
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            // senha
+            // aqui tranforma tudo oq for escrito na senha em* (só visualmente, claro)
+            textBox1.PasswordChar = '*';
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            // senha
+            // aqui tranforma tudo oq for escrito na senha em* (só visualmente, claro)
+            textBox1.PasswordChar = '*';
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

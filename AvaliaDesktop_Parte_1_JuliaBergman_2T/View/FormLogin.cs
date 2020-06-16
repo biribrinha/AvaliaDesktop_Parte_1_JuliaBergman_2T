@@ -36,20 +36,38 @@ namespace AvaliaDesktop_Parte_1_JuliaBergman_2T
         private void button1_Click(object sender, EventArgs e)
         {
 
+            // botao entrar, ao clicar, vai direto pra tela principal (entrando como usuário) 
+            new FormTelaPrincipal().ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // botao de sair
+            // botao de sair, só clicar que sai de tudo e para de rodar o código também
             Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // botao cadastrar
+            // botao cadastrar, ao clicar vai direto pra tela de cadastro :)
 
             new FormCadastro().ShowDialog();
 
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e) 
+        {
+            // aqui tranforma tudo oq for escrito na senha em* (só visualmente, claro)
+            textBox2.PasswordChar = '*';
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           
         }
     }
 }
