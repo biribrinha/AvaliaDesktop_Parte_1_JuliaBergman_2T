@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaliaDesktop_Parte_1_JuliaBergman_2T", "AvaliaDesktop_Parte_1_JuliaBergman_2T\AvaliaDesktop_Parte_1_JuliaBergman_2T.csproj", "{1AF8FAE8-0918-4DCF-AC23-4D5DACBD2F57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{95931EB6-F23D-47CD-96EB-D321EC5F408A}"
+	ProjectSection(SolutionItems) = preProject
+		AvaliaDesktop_Parte_1_JuliaBergman_2T\Form1.cs = AvaliaDesktop_Parte_1_JuliaBergman_2T\Form1.cs
+		AvaliaDesktop_Parte_1_JuliaBergman_2T\Form1.Designer.cs = AvaliaDesktop_Parte_1_JuliaBergman_2T\Form1.Designer.cs
+		AvaliaDesktop_Parte_1_JuliaBergman_2T\Form1.resx = AvaliaDesktop_Parte_1_JuliaBergman_2T\Form1.resx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF8FAE8-0918-4DCF-AC23-4D5DACBD2F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF8FAE8-0918-4DCF-AC23-4D5DACBD2F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF8FAE8-0918-4DCF-AC23-4D5DACBD2F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF8FAE8-0918-4DCF-AC23-4D5DACBD2F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D166354F-8E24-4B4E-9AE1-19B72DB0A22D}
+	EndGlobalSection
+EndGlobal
